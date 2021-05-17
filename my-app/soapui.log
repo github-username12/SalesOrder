@@ -1,0 +1,59 @@
+2021-05-17 13:37:16,217 WARN  [SoapUI] Missing folder [C:\Rajdeep\Order Repository\my-app\ext] for external libraries
+2021-05-17 13:37:16,574 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\RajdeepDebPurkayasth\soapui-settings.xml]
+2021-05-17 13:37:18,506 INFO  [WsdlProject] Loaded project from [file:/C:/Rajdeep/Order%20Repository/my-app/Order-Repository-soapui-project.xml]
+2021-05-17 13:37:19,034 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Order Repository]
+2021-05-17 13:37:19,036 INFO  [SoapUITestCaseRunner] Running Project [Order Repository], runType = SEQUENTIAL
+2021-05-17 13:37:19,080 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Order]
+2021-05-17 13:37:19,094 INFO  [SoapUITestCaseRunner] running step [Order Properties]
+2021-05-17 13:37:19,149 INFO  [SoapUITestCaseRunner] running step [Create Order]
+2021-05-17 13:37:20,838 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-17 13:37:20,838 INFO  [SoapUITestCaseRunner] running step [Entity Transfer]
+2021-05-17 13:37:21,026 INFO  [SoapUITestCaseRunner] running step [Get Order By Id]
+2021-05-17 13:37:21,972 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-17 13:37:21,976 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Order], time taken: 2863ms, status: FINISHED
+2021-05-17 13:37:21,982 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Order]
+2021-05-17 13:37:21,983 INFO  [SoapUITestCaseRunner] running step [JDBC Request]
+2021-05-17 13:37:22,263 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2021-05-17 13:37:22,817 INFO  [log] jdbcvalue is: <Results>
+    <ResultSet fetchSize="0">
+        <Row rowNumber="1">
+            <SALESORDER.SKU>SKU00020</SALESORDER.SKU>
+            <SALESORDER.PRODUCTID>10</SALESORDER.PRODUCTID>
+            <SALESORDER.QTYORDERED>12</SALESORDER.QTYORDERED>
+            <SALESORDER.PRICE>200</SALESORDER.PRICE>
+        </Row>
+        <Row rowNumber="2">
+            <SALESORDER.SKU>SKU00025</SALESORDER.SKU>
+            <SALESORDER.PRODUCTID>20</SALESORDER.PRODUCTID>
+            <SALESORDER.QTYORDERED>25</SALESORDER.QTYORDERED>
+            <SALESORDER.PRICE>500</SALESORDER.PRICE>
+        </Row>
+    </ResultSet>
+</Results>
+
+2021-05-17 13:37:22,879 INFO  [log] nodeCount2
+2021-05-17 13:37:22,881 INFO  [log] Hello World
+2021-05-17 13:37:22,971 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Order]
+2021-05-17 13:37:22,971 INFO  [SoapUITestCaseRunner] running step [Order Properties]
+2021-05-17 13:37:22,974 INFO  [SoapUITestCaseRunner] running step [Create Order]
+2021-05-17 13:37:24,072 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-17 13:37:24,073 INFO  [SoapUITestCaseRunner] running step [Entity Transfer]
+2021-05-17 13:37:24,080 INFO  [SoapUITestCaseRunner] running step [Get Order By Id]
+2021-05-17 13:37:24,997 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-17 13:37:24,998 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Order], time taken: 2016ms, status: FINISHED
+2021-05-17 13:37:24,999 INFO  [log] FINISHED
+2021-05-17 13:37:24,999 INFO  [log] 2016
+2021-05-17 13:37:25,008 INFO  [log] 4
+2021-05-17 13:37:25,022 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Order]
+2021-05-17 13:37:25,022 INFO  [SoapUITestCaseRunner] running step [Order Properties]
+2021-05-17 13:37:25,023 INFO  [SoapUITestCaseRunner] running step [Create Order]
+2021-05-17 13:37:29,593 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-17 13:37:29,593 INFO  [SoapUITestCaseRunner] running step [Entity Transfer]
+2021-05-17 13:37:29,597 INFO  [SoapUITestCaseRunner] running step [Get Order By Id]
+2021-05-17 13:37:34,645 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-17 13:37:34,646 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Order], time taken: 9616ms, status: FINISHED
+2021-05-17 13:37:34,647 INFO  [log] FINISHED
+2021-05-17 13:37:34,647 INFO  [log] 9616
+2021-05-17 13:37:34,649 INFO  [log] 4
+2021-05-17 13:37:34,650 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Order], time taken: 12664ms, status: FINISHED
+2021-05-17 13:37:34,651 INFO  [SoapUITestCaseRunner] Project [Order Repository] finished with status [FINISHED] in 15609ms

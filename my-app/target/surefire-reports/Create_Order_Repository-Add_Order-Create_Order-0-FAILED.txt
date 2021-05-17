@@ -1,0 +1,46 @@
+Status: FAILED
+Time Taken: 338
+Size: 0
+Timestamp: Mon May 17 13:30:26 IST 2021
+TestStep: Create Order
+
+----------------- Messages ------------------------------
+java.net.UnknownHostException: soap.upskills.in
+
+----------------- Properties ------------------------------
+Endpoint: http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1">
+   \r
+   <soap:Header/>
+   \r
+   <soap:Body>
+      \r
+      <def:salesOrderRepositoryV1SaveRequest>
+         \r
+         <entity>
+            \r
+            <customerEmail>mohankrishna176@gmail.com</customerEmail>
+            <items>
+               <item>
+                  <sku/>
+                  <productId/>
+                  <qtyOrdered/>
+                  <price/>
+               </item>
+            </items>
+            <payment>
+               <method>checkmo</method>
+            </payment>
+         </entity>
+         \r
+      </def:salesOrderRepositoryV1SaveRequest>
+      \r
+   </soap:Body>
+   \r
+</soap:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -

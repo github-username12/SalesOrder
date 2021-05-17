@@ -1,0 +1,36 @@
+Status: FAILED
+Time Taken: 60176
+Size: 0
+Timestamp: Mon May 17 13:32:42 IST 2021
+TestStep: Get All Orders
+
+----------------- Messages ------------------------------
+java.net.SocketTimeoutException: Read timed out
+
+----------------- Properties ------------------------------
+Endpoint: http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1">
+   \r
+   <soap:Header/>
+   \r
+   <soap:Body>
+      \r
+      <def:salesOrderRepositoryV1GetListRequest>
+         \r
+         <searchCriteria>
+            \r
+            <filterGroups/>
+            \r
+         </searchCriteria>
+         \r
+      </def:salesOrderRepositoryV1GetListRequest>
+      \r
+   </soap:Body>
+   \r
+</soap:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -
